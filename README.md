@@ -9,18 +9,13 @@
             password: '123'
         }
 
-# Getting Started with Create React App
+Для этого надо запустить файл fixtures.js в back-end папке, в терминале набрать: 
+# node fixtures.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+затем запустить сам серверб наберите в терминале команду:
+# nodemon server.js
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+далее перейти в папку front-end и набрать в терминале команду:
+# yarn start
+или
+№ npm start
